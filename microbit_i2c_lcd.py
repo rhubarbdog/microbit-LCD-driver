@@ -1,7 +1,13 @@
+# This code began life as an Arduino driver in the public domain
+# It was initially converted by a now unknown man from Amazon
 # Credit for this code goes to "natbett" of the Raspberry Pi Forum 18/02/13
 # https://www.raspberrypi.org/forums/viewtopic.php?t=34261&p=378524
-# Before running this code make sure to run sudo i2cdetect -y 1
+
+# Before running this code make sure to run i2c detect
 # and match the LCD address of your device
+
+# converted to microbit by Phil Hall
+
 from microbit import *
 import time
 
