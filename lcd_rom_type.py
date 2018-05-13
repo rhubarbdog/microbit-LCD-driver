@@ -10,9 +10,9 @@ display = lcd.lcd(i2c)
 # this will print a pi symbol for ROM A00 japaneese
 # print a divide symbol for the A02 ROM european
 
-message = str(chr(247))+" is pi : Japan"
+message = str(chr(247))+" is pi :Japan"
 display.lcd_display_string(message, 1)
-message = str(chr(247))+" is div : Euro"
+message = str(chr(247))+" is divide:Euro"
 display.lcd_display_string(message, 2)
 
 
