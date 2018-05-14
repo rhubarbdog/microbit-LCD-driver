@@ -1,4 +1,5 @@
-# requires RPi_I2C_driver.py
+#
+# this only works on 16x2 and bigger screens
 from microbit import *
 import microbit_i2c_lcd as lcd
 
